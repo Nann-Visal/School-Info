@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blues_color"
+    tools:context=".MainActivity7">
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/back_navigation_bar_ac7"
+        android:layout_width="419dp"
+        android:layout_height="64dp"
+        android:background="#4FB5B226"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:menu="@menu/button_back_of_navigation_bar" />
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/button_navigation_bar_ac7"
+        android:layout_width="423dp"
+        android:layout_height="51dp"
+        android:background="#939F83"
+        android:scaleX="1"
+        android:scaleY="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.998"
+        app:menu="@menu/my_button_of_navigation_bar" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="133dp"
+        android:layout_height="133dp"
+        android:layout_marginBottom="544dp"
+        app:layout_constraintBottom_toTopOf="@+id/button_navigation_bar_ac7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/school_icon" />
+
+    <LinearLayout
+        android:layout_width="405dp"
+        android:layout_height="67dp"
+        android:background="@drawable/my_background_button_in_setting"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/button_navigation_bar_ac7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5"
+        app:layout_constraintVertical_bias="0.205">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button_about_us"
+                android:layout_width="66dp"
+                android:layout_height="67dp"
+                android:layout_weight="1"
+                android:background="@drawable/about_icon"
+                android:scaleX="0.5" />
+
+            <TextView
+                android:id="@+id/about_us"
+                android:layout_width="218dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:text="About Us"
+                android:textColor="@color/blake"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="410dp"
+        android:layout_height="64dp"
+        android:background="@drawable/my_background_button_in_setting"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/button_navigation_bar_ac7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5"
+        app:layout_constraintVertical_bias="0.368">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button_command_us"
+                android:layout_width="47dp"
+                android:layout_height="64dp"
+                android:layout_weight="1"
+                android:background="@drawable/command_icon"
+                android:scaleX="0.5"
+                android:scaleY="0.5" />
+
+            <TextView
+                android:id="@+id/command_us"
+                android:layout_width="204dp"
+                android:layout_height="64dp"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:text="Command"
+                android:textColor="@color/blake"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="65dp"
+        android:background="@drawable/my_background_button_in_setting"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/button_navigation_bar_ac7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5"
+        app:layout_constraintVertical_bias="0.524">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button_contact_us"
+                android:layout_width="110dp"
+                android:layout_height="67dp"
+                android:layout_weight="1"
+                android:background="@drawable/sending_icon"
+                android:scaleX="0.5" />
+
+            <TextView
+                android:id="@+id/contact_us"
+                android:layout_width="265dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:text="Contact Us"
+                android:textColor="@color/blake"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="413dp"
+        android:layout_height="65dp"
+        android:background="@drawable/my_background_button_in_setting"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/button_navigation_bar_ac7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5"
+        app:layout_constraintVertical_bias="0.682">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button_exit"
+                android:layout_width="61dp"
+                android:layout_height="65dp"
+                android:layout_weight="1"
+                android:background="@drawable/exit_icon"
+                android:scaleX="0.5" />
+
+            <TextView
+                android:id="@+id/exit"
+                android:layout_width="214dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:text="Exit"
+                android:textColor="@color/blake"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="410dp"
+        android:layout_height="69dp"
+        android:background="@drawable/my_background_button_in_setting"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/button_navigation_bar_ac7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5"
+        app:layout_constraintVertical_bias="0.838">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button_log_out"
+                android:layout_width="1dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/log_out_icon"
+                android:scaleX="0.5" />
+
+            <TextView
+                android:id="@+id/log_out"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:text="Log Out"
+                android:textColor="@color/blake"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="20dp"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/items_of_school_logo"
+        android:layout_width="230dp"
+        android:layout_height="270dp"
+        android:scaleX="1"
+        android:scaleY="1" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/items_of_school_title"
+        android:text="សាកលវិទ្យាល័យភូមិន្ទភ្នំពេញ"
+        android:textColor="@color/blake"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="1dp"/>
+</LinearLayout>

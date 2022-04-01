@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/my_background_i"
+    tools:context=".MainActivity4">
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/button_navigation_bar_ac4"
+        android:layout_width="423dp"
+        android:layout_height="51dp"
+        android:background="#939F83"
+        android:scaleX="1"
+        android:scaleY="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.998"
+        app:menu="@menu/my_button_of_navigation_bar" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="139dp"
+        android:layout_height="145dp"
+        app:layout_constraintBottom_toTopOf="@+id/button_navigation_bar_ac4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.237"
+        app:srcCompat="@drawable/school_icon" />
+
+    <Button
+        android:id="@+id/public_school"
+        android:layout_width="347dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="196dp"
+        android:background="@color/with"
+        android:text="សាកលវិទ្យាល័យរដ្ឋ"
+        android:textColor="@color/greens_s_color"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/button_navigation_bar_ac4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/private_school"
+        android:layout_width="347dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="256dp"
+        android:background="@color/with"
+        android:text="សាកលវិទ្យាល័យឯកជន"
+        android:textColor="@color/greens_s_color"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/button_navigation_bar_ac4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4"
+        app:layout_constraintVertical_bias="0.0" />
+
+</android.support.constraint.ConstraintLayout>

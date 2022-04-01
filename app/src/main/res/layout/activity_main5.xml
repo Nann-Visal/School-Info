@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blues_color"
+    tools:context=".MainActivity5">
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/back_navigation_bar_ac5"
+        android:layout_width="419dp"
+        android:layout_height="64dp"
+        android:background="#4FB5B226"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.001"
+        app:menu="@menu/button_back_of_navigation_bar" >
+
+    </android.support.design.widget.BottomNavigationView>
+
+    <GridView
+        android:id="@+id/items_of_school"
+        android:layout_width="410dp"
+        android:layout_height="664dp"
+        android:horizontalSpacing="20dp"
+        android:numColumns="2"
+        android:verticalSpacing="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/back_navigation_bar_ac5"
+        app:layout_constraintVertical_bias="0.981">
+
+    </GridView>
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="121dp"
+        android:layout_height="136dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.001"
+        app:srcCompat="@drawable/school_icon" />
+
+
+</android.support.constraint.ConstraintLayout>
